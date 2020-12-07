@@ -17,6 +17,22 @@ Defaults
 
 
 //------------------------------------
+// Custom Config
+//------------------------------------
+// Stop combat
+Hotkey ( X )
+{
+    sendto ( dps1 dps2 dps3 )
+    Key ( X )
+}
+
+// Sprint
+Hotkey ( V )
+{
+    Key ( V )
+}
+
+//------------------------------------
 // DPS melee group
 //------------------------------------
 
@@ -28,6 +44,11 @@ Panel
     FontWeight ( Regular )
     Label ("DPS Control")
     ButtonSize ( 140 30 )
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl LAlt M )
+        Label ("Assist DPS") 
+    }
     Button
     { 
         DoHotkey ( LCtrl RCtrl LAlt K )
@@ -86,7 +107,7 @@ Panel
 
 Panel
 {
-    Position ( 5 150 )
+    Position ( 5 250 )
     Alpha ( 65 )
     QtyRows(2)
     FontWeight ( Regular )

@@ -75,4 +75,14 @@ Panel
         DoHotkey( LCtrl RCtrl V)
         Label ("Where ?")
     }
+    Button
+    {
+        DoHotkey( LCtrl RCtrl LAlt D )
+        Label ("TP Bind")
+    }
+    Button
+    {
+        DoHotkey( LCtrl RCtrl LAlt G )
+        Label ("Quit")
+    }
 }

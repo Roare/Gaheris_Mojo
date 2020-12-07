@@ -1,14 +1,14 @@
 // TODO update, add acuity, celerity, regen mana, instant heal
 
 // HEALER TEAM
-// single buff healer1 = bard, healer, friar, warden
-// double buff healer2 = shaman, druid, cleric 
+// single buff healer2 = bard, healer, friar, warden
+// double buff healer1 = shaman, druid, cleric 
 
 // Shamy buff
 Hotkey ( LCtrl RCtrl G )
 
 {
-  sendto (healer2)
+  sendto (healer1)
   Slash ("/qbar 2 1") // Select buff bar
   wait(2000)
 
@@ -20,20 +20,52 @@ Hotkey ( LCtrl RCtrl G )
   wait(4000)
 }
 
-// Buff bard
+// Buff single
 Hotkey ( LCtrl RCtrl H )
 {
-  sendto(healer1)
+  sendto(healer2)
   Slash ("/qbar 2 1") // Select buff bar
   Slash ("/assist local_foreground")
   wait(700)
-  Key ( 9 ) // Buff AF spec etc.
+  Key ( 1 ) // Buff AF
+  wait(4000)
+  Key ( 2 ) // Buff STR
   wait(4000)
   Key ( 3 ) // Buff CON
   wait(4000)
-  Key ( 4 ) // Buff dex
+  Key ( 4 ) // Buff Dex
   wait(4000)
+  Slash ("/qbar 1 1") // default bar
 }
+
+Hotkey ( LCtrl RCtrl N )
+{
+  sendto(healer2)
+  Slash ("/qbar 2 1") // Select buff bar
+  Slash ("/assist local_foreground")
+  wait(700)
+  Key ( 6 ) // Regen mana
+  wait(4000)
+  Slash ("/qbar 1 1") // Default bar
+}
+
+Hotkey ( LCtrl RCtrl O )
+{
+  sendto(healer2)
+  Slash ("/qbar 2 1") // Select buff bar
+  wait(700)
+  Key ( 7 ) // Speed buff
+  wait(4000)
+  Slash ("/qbar 1 1") // Default bar
+}
+
+Hotkey ( LCtrl RCtrl P )
+{
+  sendto(healer2)
+  Key ( 4 ) // Celerity
+  wait(2000)
+}
+
 
 Hotkey ( F5 )
 {

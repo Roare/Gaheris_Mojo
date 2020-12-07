@@ -62,3 +62,14 @@ Hotkey ( LCtrl RCtrl U )
     Slash ("/assist local_foreground")
     Slash ("/whisper camelot")
 }
+Hotkey ( LCtrl RCtrl LAlt D ) // Personal bind
+{
+  Slash ("/qbar 6 1")
+  Key ( 1 )
+  Slash ("/qbar  1")
+}
+Hotkey ( LCtrl RCtrl LAlt G ) // Quit
+{
+  sendto ( all )
+  Slash ("/q")
+}

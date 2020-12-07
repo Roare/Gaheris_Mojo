@@ -26,7 +26,7 @@ Hotkey ( X )
     Key ( X )
 }
 
-// Sprint
+// Team Sprint
 Hotkey ( V )
 {
     Key ( V )
@@ -48,6 +48,11 @@ Panel
     { 
         DoHotkey ( LCtrl RCtrl LAlt M )
         Label ("Assist DPS") 
+    }
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl LAlt P )
+        Label ("Celerity buff") 
     }
     Button
     { 

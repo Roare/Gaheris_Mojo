@@ -10,6 +10,16 @@ Panel
     FontWeight ( Regular )
     Label ("DPS Control")
     ButtonSize ( 140 30 )
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl LAlt M )
+        Label ("Assist DPS") 
+    }
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl LAlt P )
+        Label ("Celerity buff") 
+    }
     Button
     { 
         DoHotkey ( LCtrl RCtrl LAlt K )
@@ -19,6 +29,6 @@ Panel
     Button
     { 
         DoHotkey ( LCtrl RCtrl LAlt L )
-        Label ("Parry or Front attack")
+        Label ("Parry or front attack")
     }
 }

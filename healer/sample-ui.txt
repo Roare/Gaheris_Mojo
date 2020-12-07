@@ -53,3 +53,54 @@ Panel
         BackgroundColor (#23FF00)
     }
 }
+
+//------------------------------------
+// Buttons Buffs
+//------------------------------------
+
+Panel
+{
+    Position ( 250 250 )
+    Alpha ( 65 )
+    QtyColumns ( 1 )
+    FontWeight ( Regular )
+    Label ("Buffs")
+    ButtonSize ( 100 30 )
+    // Assist active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl H )
+        Label ("Bard buffs")
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Z )
+        Label ("Bard regen buff") 
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl LAlt A )
+        Label ("Bard water buff") 
+    }
+    // Unstick active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl G )
+        Label ("Shaman buffs") 
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Y )
+        Label ("Shaman Acuity") 
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl LAlt H )
+        Label ("Shaman Resists") 
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl LAlt I )
+        Label ("Bard Resists") 
+    }
+}

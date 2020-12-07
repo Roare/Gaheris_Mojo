@@ -5,11 +5,11 @@ group/controller.txt -> invite group function. Adapt it to your team.
 - Stick, Assist, Face, Unstick
 - Invite, Disband group
 
-### TP :
+## TP :
 - TO to Borders Keeps, Capitals, TP Bind (to update), Quit Game (to update)
 
 
-### PBAE with 3 characters
+## PBAE with 3 characters
 Window name: : pbae1, pbae2, pbae3
 # Pet-control
 
@@ -18,6 +18,6 @@ Window name: : pbae1, pbae2, pbae3
 # PBAE
 - Self AF/ABS buff, BT buff, PBAE damage, DD assist, Debuff assist
 
-### Healers
+## Healers
 Window name: healer1, healer2
  - double buff, single buff, small heal, medium heal, group small heal, instant heal, rez

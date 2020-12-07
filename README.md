@@ -1,5 +1,4 @@
-Code to update :
-
+**Code to update :**
 group/controller.txt -> invite group function. Adapt it to your team.
 
 ### Group

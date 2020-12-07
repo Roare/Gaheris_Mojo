@@ -1,0 +1,37 @@
+//------------------------------------
+// Hotkeys DPS
+//------------------------------------
+
+// Unbuff wait = 5000
+
+// Parry otherwise simple attack
+Hotkey ( LCtrl RCtrl LAlt K )
+{
+  package
+  {
+    sendto(dps1 dps2 dps3)
+	Key ( 1 ) // Select 2h
+	wait( 50 ) // to make sure 2h is selected
+	Key ( 5 ) // Style if Parry
+    Key ( 2 ) // Otherwise simple style
+	wait( 5000 ) // Wait execution first attack.
+	Key ( 6 ) // Next style if parry success
+	Key ( 2 ) // Otherwise simple style
+  }
+}
+
+// Parry otherwise front attack
+Hotkey ( LCtrl RCtrl LAlt L )
+{
+  package
+  {
+    sendto(dps1 dps2 dps3)
+	Key ( 1 ) // Select 2h
+	wait( 50 )
+	Key ( 5 ) // Style if Parry
+    Key ( 3 ) // Front of the target
+	wait( 5000 ) // Wait execution first attack.
+	Key ( 6 ) // Next style if parry success
+	Key ( 4 ) // Style after front of the target
+  }
+}

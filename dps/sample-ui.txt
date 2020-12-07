@@ -1,0 +1,24 @@
+//------------------------------------
+// DPS melee group
+//------------------------------------
+
+Panel
+{
+    Position ( 5 350 )
+    Alpha ( 65 )
+    QtyRows(2)
+    FontWeight ( Regular )
+    Label ("DPS Control")
+    ButtonSize ( 140 30 )
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl LAlt K )
+        Label ("Parry or Simple attack") 
+    }
+    // Assist active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl LAlt L )
+        Label ("Parry or Front attack")
+    }
+}

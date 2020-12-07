@@ -55,3 +55,31 @@
     sendto ( local_background remote )
     slash ( "/disband" )
   }
+  
+  // Invite to battlegroup
+    Hotkey ( LCtrl RCtrl LAlt E )
+  { 
+    package
+    {
+        sendto ( local_foreground ) // tank = driver
+        slash ( "/bg invite driver" )
+		slash ( "/bg invite healer1" )
+        slash ( "/bg invite healer2" )
+        slash ( "/bg invite dps1" )
+        slash ( "/bg invite dps2" )
+        slash ( "/bg invite dps3" )
+        slash ( "/bg lootlevel 30" )
+        slash ( "/bg treasurer local_foreground" )
+        slash ( "/bg private" )
+    }
+  }
+
+// Disband from BG
+  Hotkey ( LCtrl RCtrl LAlt F )
+  { 
+    package
+    {
+        sendto ( all )
+        slash ( "/bg leave" )
+    }
+  }

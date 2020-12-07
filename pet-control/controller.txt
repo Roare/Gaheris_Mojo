@@ -1,0 +1,72 @@
+// Pet
+// Summon pet
+Hotkey ( LCtrl RCtrl E )
+{
+   sendto (pbae1 pbae2 pbae3)
+   Slash ("/qbar 9 1")
+   wait(200)
+   Key ( 4 ) // Summon Pet
+   wait(200)
+   Slash ("/qbar 1 1")
+}
+
+// Kill pet
+Hotkey ( LCtrl RCtrl L )
+{
+   sendto (pbae1 pbae2 pbae3)
+   Slash ("/qbar 9 1")
+   wait(200)
+   Key ( 1 ) // Kill Pet
+   wait(200)
+   Slash ("/qbar 1 1")
+}
+
+// Passive pet
+Hotkey ( LCtrl RCtrl M )
+{
+   sendto (pbae1 pbae2 pbae3)
+   Slash ("/qbar 9 1")
+   wait(200)
+   Key ( 3 ) // Kill Pet
+   wait(200)
+   Slash ("/qbar 1 1")
+}
+
+// Pet attack local_foreground target
+Hotkey ( LCtrl RCtrl N )
+{
+   sendto (pbae1 pbae2 pbae3)
+   Slash ("/assist local_foreground")
+   wait(200)
+   Slash ("/qbar 9 1")
+   wait(200)
+   Key ( 2 ) // Pet Attack macro
+   wait(200)
+   Slash ("/qbar 1 1")
+}
+
+// Pet come here
+Hotkey ( LCtrl RCtrl O )
+{
+   sendto (pbae1 pbae2 pbae3)
+   Slash ("/assist local_foreground")
+   wait(200)
+   Slash ("/qbar 9 1")
+   wait(200)
+   Key ( 4 ) // Pet here macro
+   wait(200)
+   Slash ("/qbar 1 1")
+}
+
+// Pet follow
+Hotkey ( LCtrl RCtrl P )
+{
+   sendto (pbae1 pbae2 pbae3)
+   Slash ("/assist local_foreground")
+   wait(200)
+   Slash ("/qbar 9 1")
+   wait(200)
+   Key ( 5 ) // Pet follow macro
+   wait(200)
+   Slash ("/qbar 1 1")
+}

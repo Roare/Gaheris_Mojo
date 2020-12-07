@@ -1,0 +1,16 @@
+#Include group/controller.txt
+#Include pet-control/controller.txt
+#Include pbae/controller.txt
+#Include tp/controller.txt
+#Include healer/controller.txt
+
+
+//------------------------------------
+// Mojo DAoC script
+//------------------------------------
+//  Defaults
+//------------------------------------
+Defaults
+{
+   Foreground ( daoc )
+}

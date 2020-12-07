@@ -1,0 +1,65 @@
+//------------------------------------
+// Buttons group - Sample
+//-----------------------------------
+
+Panel
+{
+    Position ( 5 150 )
+    Alpha ( 65 )
+    QtyRows(2)
+    FontWeight ( Regular )
+    Label ("Group Control")
+    ButtonSize ( 90 30 )
+    
+    // Stick active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F2 )
+        Label ("Stick") 
+    }
+
+    // Assist active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F1 )
+        Label ("Assist")
+    }
+
+    // Face assist active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F4 )
+        Label ("Face")
+    }
+
+    // Unstick active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F3 )
+        Label ("Unstick") 
+    }
+}
+
+
+Panel
+{
+    Position ( 5 150 )
+    Alpha ( 65 )
+    QtyRows(2)
+    FontWeight ( Regular )
+    Label ("Group Control")
+    ButtonSize ( 90 30 )
+
+    // Stick active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F5 )
+        Label ("Invite group") 
+    }
+
+    // Assist active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F6 )
+        Label ("Disband")
+    }

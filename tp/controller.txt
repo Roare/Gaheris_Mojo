@@ -1,0 +1,64 @@
+//------------------------------------
+// Hotkeys TP Border Keeps
+//------------------------------------
+// alb - castle sauvage
+Hotkey ( LCtrl RCtrl F7 )
+{
+    Slash ("/assist local_foreground")
+    Slash ("/whisper castle sauvage")
+}
+
+// alb - snowdownia fortress
+  Hotkey ( LCtrl RCtrl F8 )
+{
+    Slash ("/assist local_foreground")
+    Slash ("/whisper fortress")
+}
+// hib - druim ligen
+Hotkey ( LCtrl RCtrl F9 )
+{
+    Slash ("/assist local_foreground")
+    Slash ("/whisper druim ligen")
+}
+
+// hib - druim cain
+Hotkey ( LCtrl RCtrl F10 )
+{
+    Slash ("/assist local_foreground")
+    Slash ("/whisper druim cain")
+}
+
+// mid - svasud faste
+Hotkey ( LCtrl RCtrl F11 )
+{
+    Slash ("/assist local_foreground")
+    Slash ("/whisper svasud faste")
+    }
+
+// mid - vindsaul faste
+Hotkey ( LCtrl RCtrl F12 )
+{
+    Slash ("/assist local_foreground")
+    Slash ("/whisper vindsaul faste")
+}
+
+// hib - tir na nog
+Hotkey ( LCtrl RCtrl J )
+{
+    Slash ("/assist local_foreground")
+    Slash ("/whisper tir na nog")
+}
+
+// mid - jordheim
+Hotkey ( LCtrl RCtrl T )
+{
+    Slash ("/assist local_foreground")
+    Slash ("/whisper jordheim")
+}
+
+// alb - camelot
+Hotkey ( LCtrl RCtrl U )
+{
+    Slash ("/assist local_foreground")
+    Slash ("/whisper camelot")
+}

@@ -1,0 +1,55 @@
+//------------------------------------
+// Buttons Healers
+//------------------------------------
+
+Panel 
+{
+    Position ( 5 610 )
+    Alpha ( 65 )
+    QtyColumns ( 3 )
+    Label ("Healer")
+    FontWeight ( Regular )
+    ButtonSize ( 120 30)
+    Button
+    {
+        DoHotkey ( F5 )
+        Label ("Small Heal Grp")
+        BackgroundColor (#B7FAAC)
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl Q )
+        Label ("Heal Grp")
+        BackgroundColor (#7BF368)
+    }
+    Button
+    {
+        DoHotkey ( F6 )
+        Label ("Big Heal Target")
+        BackgroundColor (#00FF5D)
+    }
+    Button
+    {
+        DoHotkey ( T O C H A N G E )
+        Label ("Inst. Heal Target")
+        BackgroundColor (#00FF5D)
+    }
+    Button
+    {
+        DoHotkey ( T O C H A N G E )
+        Label ("Inst. Heal Group")
+        BackgroundColor (#00FF5D)
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl R )
+        Label ("Bard Rez target")
+        BackgroundColor (#23FF00)
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl S )
+        Label ("Druid Rez target")
+        BackgroundColor (#23FF00)
+    }
+}

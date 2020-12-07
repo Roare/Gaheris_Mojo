@@ -1,0 +1,78 @@
+//------------------------------------
+// Buttons TP
+//------------------------------------
+// Select NPC before
+
+Panel
+{
+    Position ( 3100 500 )
+    Alpha ( 65 )
+    QtyColumns(3)
+    Label ("TP to ..." )
+    ButtonSize ( 100 30)
+    // alb - castle sauvage
+    Button
+    {
+        DoHotkey(LCtrl RCtrl F7)
+        Label ("Castle Sauvage")
+    }
+
+    // alb - snowdownia fortress
+    Button
+    {
+        DoHotkey(LCtrl RCtrl F8)
+        Label ("Fortress")
+    }
+
+    // hib - druim ligen
+    Button
+    {
+        DoHotkey(LCtrl RCtrl F9)
+        Label ("Druim Ligen")
+    }
+
+    // hib - druim cain
+    Button
+    {
+        DoHotkey(LCtrl RCtrl F10)
+        Label ("Druim Cain")
+    }
+
+    // mid - svasud faste
+    Button
+    {
+        DoHotkey(LCtrl RCtrl F11)
+        Label ("Svasud Faste")
+        }
+
+    // mid - vindsaul faste
+    Button
+    {
+        DoHotkey(LCtrl RCtrl F12)
+        Label ("Vindsaul Faste")
+    }
+    // hib - tir na nog
+    Button
+    {
+        DoHotkey( LCtrl RCtrl J )
+        Label ("Tir na nog")
+    }
+    // alb camelot
+    Button
+    {
+        DoHotkey( LCtrl RCtrl U )
+        Label ("Camelot")
+    }
+    // mid - jordheim
+    Button
+    {
+        DoHotkey( LCtrl RCtrl T)
+        Label ("Jordheim")
+    }
+    //Choose
+    Button
+    {
+        DoHotkey( LCtrl RCtrl V)
+        Label ("Where ?")
+    }
+}

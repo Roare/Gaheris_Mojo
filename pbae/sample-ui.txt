@@ -1,0 +1,58 @@
+//------------------------------------
+// Buttons PBAE Team
+//------------------------------------
+Panel
+{
+    Position ( 5 350 )
+    Alpha ( 65 )
+    QtyColumns ( 2 )
+    FontWeight ( Regular )
+    Label ("PBAE Team")
+    ButtonSize ( 110 30 )
+    
+    // Assist active windows and use Direct Damage spell
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl I )
+        Label ("Assist DD") 
+        BackgroundColor(#278781)
+    }
+
+    // Assist and debuff target (Q-bar 8, 1)
+    Button
+    {
+        DoHotkey ( F2 )
+        Label ("Inst. Debuff")
+        BackgroundColor(#278781)
+    }
+
+    // PBAE Damage
+    Button
+    {
+        DoHotkey ( F3 )
+        Label ("PBAE")
+        BackgroundColor(#278781)
+    }
+
+    // Instant Cast then PBAE damage
+    Button
+    {
+        DoHotkey ( F4 )
+        Label ("IC PBAE") //  IC if interrupt
+        BackgroundColor(#278781)
+    }
+
+    // self af/abs buff for mages
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl D )
+        Label ("Self buffs") 
+    }
+
+    // self BT buff for mages
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl X )
+        Label ("BT buff")
+    }            
+}

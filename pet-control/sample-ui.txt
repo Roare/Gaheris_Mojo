@@ -1,0 +1,45 @@
+//------------------------------------
+// Buttons Pets control
+//------------------------------------
+
+Panel 
+{
+    Position ( 5 480 )
+    Alpha ( 65 )
+    QtyColumns ( 2 )
+    ButtonSize ( 100 30 )
+    Label ("Pets Control")
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl N )
+        Label ("Pet Attack")
+        BackgroundColor(#278781)
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl M )
+        Label ("Pet Passive")
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl O )
+        Label ("Come Here")
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl P )
+        Label ("Follow")
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl E )
+        Label ("Quick Sum. Pets")
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl L )
+        Label ("Kill Pet")
+        BackgroundColor (#990000) 
+        TextColor (#ffffff)
+    }
+}

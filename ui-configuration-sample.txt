@@ -2,8 +2,8 @@
 #Include pet-control/controller.txt
 #Include pbae/controller.txt
 #Include tp/controller.txt
-#Include healer/controller.txt
-
+#Include heal/controller.txt
+#Include dps/controller.txt
 
 //------------------------------------
 // Mojo DAoC script

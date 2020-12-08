@@ -1,6 +1,6 @@
 // Pet
 // Summon pet
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl L )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/qbar 9 1")
@@ -11,7 +11,7 @@ Hotkey ( T O C H A N G E )
 }
 
 // Kill pet
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl M )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/qbar 9 1")
@@ -22,18 +22,18 @@ Hotkey ( T O C H A N G E )
 }
 
 // Passive pet
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl N )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/qbar 9 1")
    wait(200)
-   Key ( 3 ) // Kill Pet
+   Key ( 3 )
    wait(200)
    Slash ("/qbar 1 1")
 }
 
-// Pet attack local_foreground target
-Hotkey ( T O C H A N G E )
+// Pet attack  target of active daoc window
+Hotkey ( LCtrl RCtrl O )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/assist local_foreground")
@@ -46,7 +46,7 @@ Hotkey ( T O C H A N G E )
 }
 
 // Pet come here
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl P )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/assist local_foreground")
@@ -59,7 +59,7 @@ Hotkey ( T O C H A N G E )
 }
 
 // Pet follow
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl Q )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/assist local_foreground")

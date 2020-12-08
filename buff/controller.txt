@@ -1,0 +1,72 @@
+// TODO add : acuity, Endu, resistance
+//------------------------------------
+// Healer (Mid), Shamy (Mid)
+//------------------------------------
+// single buff healer2 = bard, healer, friar, warden
+// double buff healer1 = shaman, druid, cleric 
+
+// Shamy buff
+Hotkey ( LCtrl RCtrl W )
+{
+  sendto (healer1)
+  Slash ("/qbar 2 1") // Select buff bar
+  wait(2000)
+
+  Slash ("/assist local_foreground")
+  wait(1000)
+  Key ( 5 ) // Buff str-con    
+  wait(4000)
+  Key ( 6 ) // Buff dex-qui        
+  wait(4000)
+}
+
+// Buff single
+Hotkey ( LCtrl RCtrl X )
+{
+  sendto(healer2)
+  Slash ("/qbar 2 1") // Select buff bar
+  Slash ("/assist local_foreground")
+  wait(700)
+  Key ( 1 ) // Buff AF
+  wait(4000)
+  Key ( 2 ) // Buff STR
+  wait(4000)
+  Key ( 3 ) // Buff CON
+  wait(4000)
+  Key ( 4 ) // Buff Dex
+  wait(4000)
+  Slash ("/qbar 1 1") // default bar
+}
+
+
+// Regen mana
+Hotkey ( LCtrl RCtrl Y )
+{
+  sendto(healer2)
+  Slash ("/qbar 2 1") // Select buff bar
+  Slash ("/assist local_foreground")
+  wait(700)
+  Key ( 6 ) // Regen mana
+  wait(4000)
+  Slash ("/qbar 1 1") // Default bar
+}
+
+// Speed buff (healer)
+Hotkey ( LCtrl RCtrl Z )
+{
+  sendto(healer2)
+  Slash ("/qbar 2 1") // Select buff bar
+  wait(700)
+  Key ( 7 ) // Speed buff
+  wait(4000)
+  Slash ("/qbar 1 1") // Default bar
+}
+
+
+// Celerity buff
+Hotkey ( LCtrl RCtrl Lalt F1 )
+{
+  sendto(healer2)
+  Key ( 4 ) // Celerity
+  wait(2000)
+}

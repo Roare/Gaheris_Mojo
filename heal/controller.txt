@@ -1,72 +1,15 @@
-// TODO update, add acuity, celerity, regen mana, instant heal
+// TODO instant heal single, instant heal group
 
-// HEALER TEAM
-// single buff healer2 = bard, healer, friar, warden
-// double buff healer1 = shaman, druid, cleric 
+//------------------------------------
+// Healer (Mid), Shamy (Mid)
+//------------------------------------
 
-// Shamy buff
-Hotkey ( T O C H A N G E )
-{
-  sendto (healer1)
-  Slash ("/qbar 2 1") // Select buff bar
-  wait(2000)
-
-  Slash ("/assist local_foreground")
-  wait(1000)
-  Key ( 5 ) // Buff str-con    
-  wait(4000)
-  Key ( 6 ) // Buff dex-qui        
-  wait(4000)
-}
-
-// Buff single
-Hotkey ( T O C H A N G E )
-{
-  sendto(healer2)
-  Slash ("/qbar 2 1") // Select buff bar
-  Slash ("/assist local_foreground")
-  wait(700)
-  Key ( 1 ) // Buff AF
-  wait(4000)
-  Key ( 2 ) // Buff STR
-  wait(4000)
-  Key ( 3 ) // Buff CON
-  wait(4000)
-  Key ( 4 ) // Buff Dex
-  wait(4000)
-  Slash ("/qbar 1 1") // default bar
-}
-
-Hotkey ( T O C H A N G E )
-{
-  sendto(healer2)
-  Slash ("/qbar 2 1") // Select buff bar
-  Slash ("/assist local_foreground")
-  wait(700)
-  Key ( 6 ) // Regen mana
-  wait(4000)
-  Slash ("/qbar 1 1") // Default bar
-}
-
-Hotkey ( T O C H A N G E )
-{
-  sendto(healer2)
-  Slash ("/qbar 2 1") // Select buff bar
-  wait(700)
-  Key ( 7 ) // Speed buff
-  wait(4000)
-  Slash ("/qbar 1 1") // Default bar
-}
-
-Hotkey ( T O C H A N G E )
-{
-  sendto(healer2)
-  Key ( 4 ) // Celerity
-  wait(2000)
-}
+//------------------------------------
+// Heals
+//------------------------------------
 
 
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl Lalt F2 )
 {
   sendto(healer1 healer2)
   Slash ("/assist local_foreground")
@@ -74,7 +17,7 @@ Hotkey ( T O C H A N G E )
   Key ( 1 ) // small target heal
 }
 
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl Lalt F3 )
 {
   sendto(healer1 healer2)
   Slash ("/assist local_foreground")
@@ -82,20 +25,23 @@ Hotkey ( T O C H A N G E )
   Key ( 2 ) // heal target
 }
 
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl Lalt F4 )
 {
   sendto(healer1 healer2)
   Key ( 3 ) // small group heal
 }
 
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl Lalt F5 )
 {
   sendto(healer1 healer2)
   Key ( 4 ) // group heal
 }
 
+//------------------------------------
+// Rez
+//------------------------------------
 // Healer1 Rez target
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl Lalt F6 )
 {
   sendto(healer1)
   Slash ("/assist local_foreground")
@@ -104,7 +50,7 @@ Hotkey ( T O C H A N G E )
 }
 
 // Healer2 Rez target
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl Lalt F7 )
 {
   sendto(healer2)
   Slash ("/assist local_foreground")

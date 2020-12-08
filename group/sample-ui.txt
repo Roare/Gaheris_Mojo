@@ -14,28 +14,28 @@ Panel
     // Stick active daoc window
     Button
     { 
-        DoHotkey ( LCtrl RCtrl F2 )
+        DoHotkey ( T O C H A N G E )
         Label ("Stick") 
     }
 
     // Assist active daoc window
     Button
     { 
-        DoHotkey ( LCtrl RCtrl F1 )
+        DoHotkey ( T O C H A N G E )
         Label ("Assist")
     }
 
     // Face assist active daoc window
     Button
     { 
-        DoHotkey ( LCtrl RCtrl F4 )
+        DoHotkey ( T O C H A N G E )
         Label ("Face")
     }
 
     // Unstick active daoc window
     Button
     { 
-        DoHotkey ( LCtrl RCtrl F3 )
+        DoHotkey ( T O C H A N G E )
         Label ("Unstick") 
     }
 }
@@ -55,24 +55,24 @@ Panel
     ButtonSize ( 110 30 )
     Button
     { 
-        DoHotkey ( LCtrl RCtrl F5 )
+        DoHotkey ( T O C H A N G E )
         Label ("Invite group")
     }
     Button
     { 
-        DoHotkey ( LCtrl RCtrl F6 )
+        DoHotkey ( T O C H A N G E )
         Label ("Disband group")
         BackgroundColor (#990000) 
         TextColor (#ffffff)
     }
     Button
     { 
-        DoHotkey ( LCtrl RCtrl LAlt E )
+        DoHotkey ( T O C H A N G E )
         Label ("BG create")
     }
     Button
     { 
-        DoHotkey ( LCtrl RCtrl LAlt F )
+        DoHotkey ( T O C H A N G E )
         Label ("BG leave")
     }
 }

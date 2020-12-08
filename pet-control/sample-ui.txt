@@ -11,33 +11,33 @@ Panel
     Label ("Pets Control")
     Button
     {
-        DoHotkey ( LCtrl RCtrl N )
+        DoHotkey ( T O C H A N G E )
         Label ("Pet Attack")
         BackgroundColor(#278781)
     }
     Button
     {
-        DoHotkey ( LCtrl RCtrl M )
+        DoHotkey ( T O C H A N G E )
         Label ("Pet Passive")
     }
     Button
     {
-        DoHotkey ( LCtrl RCtrl O )
+        DoHotkey ( T O C H A N G E )
         Label ("Come Here")
     }
     Button
     {
-        DoHotkey ( LCtrl RCtrl P )
+        DoHotkey ( T O C H A N G E )
         Label ("Follow")
     }
     Button
     {
-        DoHotkey ( LCtrl RCtrl E )
+        DoHotkey ( T O C H A N G E )
         Label ("Quick Sum. Pets")
     }
     Button
     {
-        DoHotkey ( LCtrl RCtrl L )
+        DoHotkey ( T O C H A N G E )
         Label ("Kill Pet")
         BackgroundColor (#990000) 
         TextColor (#ffffff)

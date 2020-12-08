@@ -13,23 +13,15 @@ Panel
     // Assist active windows and use Direct Damage spell
     Button
     {
-        DoHotkey ( LCtrl RCtrl I )
+        DoHotkey ( T O C H A N G E )
         Label ("Assist DD") 
-        BackgroundColor(#278781)
-    }
-
-    // Assist and debuff target (Q-bar 8, 1)
-    Button
-    {
-        DoHotkey ( F2 )
-        Label ("Inst. Debuff")
         BackgroundColor(#278781)
     }
 
     // PBAE Damage
     Button
     {
-        DoHotkey ( F3 )
+        DoHotkey ( T O C H A N G E )
         Label ("PBAE")
         BackgroundColor(#278781)
     }
@@ -37,7 +29,7 @@ Panel
     // Instant Cast then PBAE damage
     Button
     {
-        DoHotkey ( F4 )
+        DoHotkey ( T O C H A N G E )
         Label ("IC PBAE") //  IC if interrupt
         BackgroundColor(#278781)
     }
@@ -45,14 +37,14 @@ Panel
     // self af/abs buff for mages
     Button
     {
-        DoHotkey ( LCtrl RCtrl D )
+        DoHotkey ( T O C H A N G E )
         Label ("Self buffs") 
     }
 
     // self BT buff for mages
     Button
     {
-        DoHotkey ( LCtrl RCtrl X )
+        DoHotkey ( T O C H A N G E )
         Label ("BT buff")
     }            
 }

@@ -13,76 +13,76 @@ Panel
     // alb - castle sauvage
     Button
     {
-        DoHotkey(LCtrl RCtrl F7)
+        DoHotkey ( T O C H A N G E )
         Label ("Castle Sauvage")
     }
 
     // alb - snowdownia fortress
     Button
     {
-        DoHotkey(LCtrl RCtrl F8)
+        DoHotkey ( T O C H A N G E )
         Label ("Fortress")
     }
 
     // hib - druim ligen
     Button
     {
-        DoHotkey(LCtrl RCtrl F9)
+        DoHotkey ( T O C H A N G E )
         Label ("Druim Ligen")
     }
 
     // hib - druim cain
     Button
     {
-        DoHotkey(LCtrl RCtrl F10)
+        DoHotkey ( T O C H A N G E )
         Label ("Druim Cain")
     }
 
     // mid - svasud faste
     Button
     {
-        DoHotkey(LCtrl RCtrl F11)
+        DoHotkey ( T O C H A N G E )
         Label ("Svasud Faste")
         }
 
     // mid - vindsaul faste
     Button
     {
-        DoHotkey(LCtrl RCtrl F12)
+        DoHotkey ( T O C H A N G E )
         Label ("Vindsaul Faste")
     }
     // hib - tir na nog
     Button
     {
-        DoHotkey( LCtrl RCtrl J )
+        DoHotkey ( T O C H A N G E )
         Label ("Tir na nog")
     }
     // alb camelot
     Button
     {
-        DoHotkey( LCtrl RCtrl U )
+        DoHotkey ( T O C H A N G E )
         Label ("Camelot")
     }
     // mid - jordheim
     Button
     {
-        DoHotkey( LCtrl RCtrl T)
+        DoHotkey ( T O C H A N G E )
         Label ("Jordheim")
     }
     //Choose
     Button
     {
-        DoHotkey( LCtrl RCtrl V)
+        DoHotkey ( T O C H A N G E )
         Label ("Where ?")
     }
     Button
     {
-        DoHotkey( LCtrl RCtrl LAlt D )
+        DoHotkey ( T O C H A N G E )
         Label ("TP Bind")
     }
     Button
     {
-        DoHotkey( LCtrl RCtrl LAlt G )
+        DoHotkey ( T O C H A N G E )
         Label ("Quit")
     }
 }

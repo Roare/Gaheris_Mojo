@@ -12,23 +12,23 @@ Panel
     ButtonSize ( 140 30 )
 	Button
     { 
-        DoHotkey ( LCtrl RCtrl LAlt M )
+        DoHotkey ( T O C H A N G E )
         Label ("Assist DPS") 
     }
 	Button
     { 
-        DoHotkey ( LCtrl RCtrl LAlt P )
+        DoHotkey ( T O C H A N G E )
         Label ("Celerity buff") 
     }
     Button
     { 
-        DoHotkey ( LCtrl RCtrl LAlt K )
+        DoHotkey ( T O C H A N G E )
         Label ("Parry or Simple attack") 
     }
     // Assist active daoc window
     Button
     { 
-        DoHotkey ( LCtrl RCtrl LAlt L )
+        DoHotkey ( T O C H A N G E )
         Label ("Parry or front attack")
     }
 }

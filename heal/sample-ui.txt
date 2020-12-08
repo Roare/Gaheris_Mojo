@@ -12,7 +12,7 @@ Panel
     ButtonSize ( 120 30)
     Button
     {
-        DoHotkey ( T O C H A N G E )
+        DoHotkey ( LCtrl RCtrl Lalt F4 )
         Label ("Small Heal Grp")
         BackgroundColor (#B7FAAC)
     }
@@ -24,7 +24,7 @@ Panel
     }
     Button
     {
-        DoHotkey ( T O C H A N G E )
+        DoHotkey ( LCtrl RCtrl Lalt F3 )
         Label ("Big Heal Target")
         BackgroundColor (#00FF5D)
     }
@@ -42,65 +42,14 @@ Panel
     }
     Button
     {
-        DoHotkey ( T O C H A N G E )
-        Label ("Bard Rez target")
+        DoHotkey ( LCtrl RCtrl Lalt F6 )
+        Label ("Healer1 Rez target")
         BackgroundColor (#23FF00)
     }
     Button
     {
-        DoHotkey ( T O C H A N G E )
+        DoHotkey ( LCtrl RCtrl Lalt F7 )
         Label ("Druid Rez target")
         BackgroundColor (#23FF00)
-    }
-}
-
-//------------------------------------
-// Buttons Buffs
-//------------------------------------
-
-Panel
-{
-    Position ( 250 250 )
-    Alpha ( 65 )
-    QtyColumns ( 1 )
-    FontWeight ( Regular )
-    Label ("Buffs")
-    ButtonSize ( 100 30 )
-    // Assist active daoc window
-    Button
-    { 
-        DoHotkey ( T O C H A N G E )
-        Label ("Bard buffs")
-    }
-    Button
-    { 
-        DoHotkey ( T O C H A N G E )
-        Label ("Bard regen buff") 
-    }
-    Button
-    { 
-        DoHotkey ( T O C H A N G E )
-        Label ("Bard water buff") 
-    }
-    // Unstick active daoc window
-    Button
-    { 
-        DoHotkey ( T O C H A N G E )
-        Label ("Shaman buffs") 
-    }
-    Button
-    { 
-        DoHotkey ( T O C H A N G E )
-        Label ("Shaman Acuity") 
-    }
-    Button
-    { 
-        DoHotkey ( T O C H A N G E )
-        Label ("Shaman Resists") 
-    }
-    Button
-    { 
-        DoHotkey ( T O C H A N G E )
-        Label ("Bard Resists") 
     }
 }

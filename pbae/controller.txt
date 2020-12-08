@@ -1,12 +1,12 @@
 // PBAE DMG
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl R )
 {
    sendto (pbae1 pbae2 pbae3)
    Key ( 3 )
 }
 
 // PBAE DMG Instant cast
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl S )
 {
    sendto (pbae1 pbae2 pbae3)
    Key ( 4 )
@@ -15,7 +15,7 @@ Hotkey ( T O C H A N G E )
 }
 
 // DD DMG
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl T )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/assist local_foreground")
@@ -23,24 +23,8 @@ Hotkey ( T O C H A N G E )
    Key ( 1 )
 }
 
-// Instant debuff
-Hotkey ( T O C H A N G E )
-{
-   sendto (pbae1 pbae2 pbae3)
-   Slash ("/qbar 8 1")
-   Key ( 1 )
-   wait(200)
-   Key ( 2 )
-   wait(200)
-   Key ( 3 )
-   wait(200)
-   Key ( 4 )
-   wait(200)
-   Slash ("/qbar 1 1")
-}
-
 // Self AF/ABS Buffs
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl U )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/qbar 2 1")
@@ -51,7 +35,7 @@ Hotkey ( T O C H A N G E )
 }
 
 // BT Buff
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl V )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/qbar 2 1")

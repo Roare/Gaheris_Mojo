@@ -2,73 +2,77 @@
 // Hotkeys TP Border Keeps
 //------------------------------------
 // alb - castle sauvage
-Hotkey ( LCtrl RCtrl F7 )
+Hotkey ( T O C H A N G E )
 {
     Slash ("/assist local_foreground")
     Slash ("/whisper castle sauvage")
 }
 
 // alb - snowdownia fortress
-  Hotkey ( LCtrl RCtrl F8 )
+Hotkey ( T O C H A N G E )
 {
     Slash ("/assist local_foreground")
     Slash ("/whisper fortress")
 }
 // hib - druim ligen
-Hotkey ( LCtrl RCtrl F9 )
+Hotkey ( T O C H A N G E )
 {
     Slash ("/assist local_foreground")
     Slash ("/whisper druim ligen")
 }
 
 // hib - druim cain
-Hotkey ( LCtrl RCtrl F10 )
+Hotkey ( T O C H A N G E )
 {
     Slash ("/assist local_foreground")
     Slash ("/whisper druim cain")
 }
 
 // mid - svasud faste
-Hotkey ( LCtrl RCtrl F11 )
+Hotkey ( T O C H A N G E )
 {
     Slash ("/assist local_foreground")
     Slash ("/whisper svasud faste")
     }
 
 // mid - vindsaul faste
-Hotkey ( LCtrl RCtrl F12 )
+Hotkey ( T O C H A N G E )
 {
     Slash ("/assist local_foreground")
     Slash ("/whisper vindsaul faste")
 }
 
 // hib - tir na nog
-Hotkey ( LCtrl RCtrl J )
+Hotkey ( T O C H A N G E )
 {
     Slash ("/assist local_foreground")
     Slash ("/whisper tir na nog")
 }
 
 // mid - jordheim
-Hotkey ( LCtrl RCtrl T )
+Hotkey ( T O C H A N G E )
 {
     Slash ("/assist local_foreground")
     Slash ("/whisper jordheim")
 }
 
 // alb - camelot
-Hotkey ( LCtrl RCtrl U )
+Hotkey ( T O C H A N G E )
 {
     Slash ("/assist local_foreground")
     Slash ("/whisper camelot")
 }
-Hotkey ( LCtrl RCtrl LAlt D ) // Personal bind
+
+// TP to bind
+Hotkey ( T O C H A N G E )
 {
   Slash ("/qbar 6 1")
   Key ( 1 )
   Slash ("/qbar  1")
 }
-Hotkey ( LCtrl RCtrl LAlt G ) // Quit
+
+// Quit the game
+Hotkey ( T O C H A N G E )
 {
   sendto ( all )
   Slash ("/q")

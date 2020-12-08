@@ -1,6 +1,6 @@
 // Pet
 // Summon pet
-Hotkey ( LCtrl RCtrl E )
+Hotkey ( T O C H A N G E )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/qbar 9 1")
@@ -11,7 +11,7 @@ Hotkey ( LCtrl RCtrl E )
 }
 
 // Kill pet
-Hotkey ( LCtrl RCtrl L )
+Hotkey ( T O C H A N G E )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/qbar 9 1")
@@ -22,7 +22,7 @@ Hotkey ( LCtrl RCtrl L )
 }
 
 // Passive pet
-Hotkey ( LCtrl RCtrl M )
+Hotkey ( T O C H A N G E )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/qbar 9 1")
@@ -33,7 +33,7 @@ Hotkey ( LCtrl RCtrl M )
 }
 
 // Pet attack local_foreground target
-Hotkey ( LCtrl RCtrl N )
+Hotkey ( T O C H A N G E )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/assist local_foreground")
@@ -46,7 +46,7 @@ Hotkey ( LCtrl RCtrl N )
 }
 
 // Pet come here
-Hotkey ( LCtrl RCtrl O )
+Hotkey ( T O C H A N G E )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/assist local_foreground")
@@ -59,7 +59,7 @@ Hotkey ( LCtrl RCtrl O )
 }
 
 // Pet follow
-Hotkey ( LCtrl RCtrl P )
+Hotkey ( T O C H A N G E )
 {
    sendto (pbae1 pbae2 pbae3)
    Slash ("/assist local_foreground")

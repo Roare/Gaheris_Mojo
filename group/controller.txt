@@ -2,14 +2,14 @@
 // Hotkeys group
 //------------------------------------
 // Assist active DAoC window
-  Hotkey ( LCtrl RCtrl F1 )
+  Hotkey ( T O C H A N G E )
   { 
     Sendto (local_background)
     Slash ("/assist local_foreground")
   }
 
  // Stick active DAoC window
- Hotkey ( LCtrl RCtrl F2 )
+  Hotkey ( T O C H A N G E )
   { 
     Sendto (local_background remote)
     Slash ("/target local_foreground")
@@ -18,14 +18,14 @@
   }
   
   // Unstick active daoc window
-  Hotkey ( LCtrl RCtrl F3 )
+  Hotkey ( T O C H A N G E )
   { 
     Sendto (local_background remote)
     Key ( Space )
   }
   
   // Face target
-  Hotkey ( LCtrl RCtrl F4 )
+  Hotkey ( T O C H A N G E )
   { 
     Slash ("/assist local_foreground") // assist active daoc window
     wait(200)
@@ -33,7 +33,7 @@
   }
   
   // invite group
-    Hotkey ( LCtrl RCtrl F5 )
+  Hotkey ( T O C H A N G E )
   { 
     package
     {
@@ -50,14 +50,14 @@
   }
   
   // disband group
-  Hotkey ( LCtrl RCtrl F6 )
+  Hotkey ( T O C H A N G E )
   { 
     sendto ( local_background remote )
     slash ( "/disband" )
   }
   
   // Invite to battlegroup
-    Hotkey ( LCtrl RCtrl LAlt E )
+  Hotkey ( T O C H A N G E )
   { 
     package
     {
@@ -75,7 +75,7 @@
   }
 
 // Disband from BG
-  Hotkey ( LCtrl RCtrl LAlt F )
+  Hotkey ( T O C H A N G E )
   { 
     package
     {

@@ -5,7 +5,7 @@
 // Unbuff wait = 5000
 
 // Parry otherwise simple attack
-Hotkey ( LCtrl RCtrl LAlt K )
+Hotkey ( T O C H A N G E )
 {
     sendto(dps1 dps2 dps3)
 	Key ( 1 ) // Select 2h
@@ -18,7 +18,7 @@ Hotkey ( LCtrl RCtrl LAlt K )
 }
 
 // Parry otherwise front attack
-Hotkey ( LCtrl RCtrl LAlt L )
+Hotkey ( T O C H A N G E )
 {
     sendto(dps1 dps2 dps3)
 	Key ( 1 ) // Select 2h
@@ -31,11 +31,10 @@ Hotkey ( LCtrl RCtrl LAlt L )
 }
 
 
-// Parry otherwise front attack
-Hotkey ( LCtrl RCtrl LAlt M )
+Hotkey ( T O C H A N G E )
 {
     Sendto (dps1 dps2 dps3)
     Slash ("/assist local_foreground")
-	wait( 50 )
+	wait ( 50 )
 	Slash ("/stick")
 }

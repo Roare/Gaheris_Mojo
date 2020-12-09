@@ -34,6 +34,18 @@ Panel
         Label ("Inst. Heal Group")
         BackgroundColor (#00FF5D)
     }
+	Button
+    {
+        DoHotkey ( T O C H A N G E )
+        Label ("Healer Remove disease")
+        BackgroundColor (#00FF5D)
+    }
+	    Button
+    {
+        DoHotkey ( T O C H A N G E )
+        Label ("Shaman Remove disease")
+        BackgroundColor (#00FF5D)
+    }
     Button
     {
         DoHotkey ( LCtrl RCtrl Lalt F6 )

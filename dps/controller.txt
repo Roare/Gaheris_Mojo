@@ -4,34 +4,59 @@
 
 // Unbuff wait = 5000
 
-// Parry otherwise simple attack
-Hotkey ( T O C H A N G E )
+// LW - Parry otherwise simple attack
+Hotkey ( LCtrl RCtrl Lalt B )
 {
     sendto(dps1 dps2 dps3)
 	Key ( 1 ) // Select 2h
 	wait( 100 ) // to make sure 2h is selected
 	Key ( 5 ) // Style if Parry
     Key ( 2 ) // Otherwise simple style
-	wait( 5000 ) // Wait execution first attack.
+}
+
+// LW - Followup parry otherwise simple attack
+Hotkey ( LCtrl RCtrl Lalt C )
+{
+    sendto(dps1 dps2 dps3)
+	Key ( 1 ) // make sure 2h is selected
+	wait( 100 ) // Wait execution first attack.
 	Key ( 6 ) // Next style if parry success
 	Key ( 2 ) // Otherwise simple style
 }
 
+
 // Parry otherwise front attack
-Hotkey ( T O C H A N G E )
+Hotkey ( LCtrl RCtrl Lalt D )
 {
     sendto(dps1 dps2 dps3)
 	Key ( 1 ) // Select 2h
 	wait( 50 )
 	Key ( 5 ) // Style if Parry
     Key ( 3 ) // Front of the target
-	wait( 5000 ) // Wait execution first attack.
+}
+
+// follow up Parry otherwise front attack
+Hotkey ( LCtrl RCtrl Lalt E )
+{
+    sendto(dps1 dps2 dps3)
+	Key ( 1 ) // Select 2h
+	wait( 50 )
 	Key ( 6 ) // Next style if parry success
 	Key ( 4 ) // Style after front of the target
 }
 
+// LW - Front target otherwise simple attack
+Hotkey ( LCtrl RCtrl Lalt F )
+{
+    sendto(dps1 dps2 dps3)
+	Key ( 1 ) // Select 2h
+	wait( 50 )
+	Key ( 3 ) // Next style if parry success
+	Key ( 2 ) // Style after front of the target
+}
 
-Hotkey ( T O C H A N G E )
+// Assist active window and stick
+Hotkey ( LCtrl RCtrl Lalt G )
 {
     Sendto (dps1 dps2 dps3)
     Slash ("/assist local_foreground")

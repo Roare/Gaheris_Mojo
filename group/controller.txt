@@ -38,12 +38,7 @@
     package
     {
         sendto ( local_foreground ) // Active window will send invitation
-        slash ( "/invite driver" )
-        slash ( "/invite healer1" )
-        slash ( "/invite healer2" )
-        slash ( "/invite dps1" )
-        slash ( "/invite dps2" )
-        slash ( "/invite dps3" )
+        slash ( "/invite local_foreground" )
         // slash ( "/invite character7" )
         // slash ( "/invite character8" )
     }
@@ -62,12 +57,7 @@
     package
     {
         sendto ( local_foreground ) // tank = driver
-        slash ( "/bg invite driver" )
-		slash ( "/bg invite healer1" )
-        slash ( "/bg invite healer2" )
-        slash ( "/bg invite dps1" )
-        slash ( "/bg invite dps2" )
-        slash ( "/bg invite dps3" )
+        slash ( "/bg invite local_foreground" )
         slash ( "/bg lootlevel 30" )
         slash ( "/bg treasurer local_foreground" )
         slash ( "/bg private" )

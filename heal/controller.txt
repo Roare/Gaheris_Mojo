@@ -33,8 +33,16 @@ Hotkey ( LCtrl RCtrl Lalt F4 )
 
 Hotkey ( LCtrl RCtrl Lalt F5 )
 {
-  sendto(healer1 healer2)
-  Key ( 4 ) // group heal
+  sendto(healer2)
+  Key ( 5 ) // Inst. Heal Target
+  //wait( 200 )
+  //Key ( 6 ) // 2nd instant heal
+}
+
+Hotkey ( LCtrl RCtrl Lalt F8 )
+{
+  sendto(healer2)
+  Key ( 7 ) // Inst. Heal group
 }
 
 //------------------------------------

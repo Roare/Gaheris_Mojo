@@ -20,7 +20,7 @@ Hotkey ( LCtrl RCtrl W )
   wait(4000)
 }
 
-// Buff single
+// Buff single (healer)
 Hotkey ( LCtrl RCtrl X )
 {
   sendto(healer2)
@@ -38,6 +38,29 @@ Hotkey ( LCtrl RCtrl X )
   Slash ("/qbar 1 1") // default bar
 }
 
+//healer and shaman resists
+Hotkey ( LCtrl RCtrl Lalt A )
+{
+    package
+    {
+	  sendto(healer2)
+	  Slash ("/qbar 3 1") // Select buff bar
+	  wait(700)
+	  Key ( 1 ) // Resist magic buff
+	  wait(3500)
+	  Key ( 2 ) // heal buff
+	  Slash ("/qbar 1 1") // Default bar
+	}
+	package
+    {
+	  sendto(healer1)
+	  Slash ("/qbar 3 1") // Select buff bar
+	  wait(700)
+	  Key ( 1 ) // Resist magic buff
+	  Slash ("/qbar 1 1") // Default bar
+	}
+	
+}
 
 // Regen mana
 Hotkey ( LCtrl RCtrl Y )
@@ -50,6 +73,19 @@ Hotkey ( LCtrl RCtrl Y )
   wait(4000)
   Slash ("/qbar 1 1") // Default bar
 }
+
+// Buff AF
+Hotkey ( LCtrl RCtrl F9 )
+{
+  sendto(healer2)
+  Slash ("/qbar 2 1") // Select buff bar
+  Slash ("/assist local_foreground")
+  wait(700)
+  Key ( 5 ) // buff af
+  wait(4000)
+  Slash ("/qbar 1 1") // Default bar
+}
+
 
 // Speed buff (healer)
 Hotkey ( LCtrl RCtrl Z )
@@ -70,3 +106,5 @@ Hotkey ( LCtrl RCtrl Lalt F1 )
   Key ( 4 ) // Celerity
   wait(2000)
 }
+
+//  

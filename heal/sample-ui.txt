@@ -18,25 +18,19 @@ Panel
     }
     Button
     {
-        DoHotkey ( T O C H A N G E )
-        Label ("Heal Grp")
-        BackgroundColor (#7BF368)
-    }
-    Button
-    {
         DoHotkey ( LCtrl RCtrl Lalt F3 )
         Label ("Big Heal Target")
         BackgroundColor (#00FF5D)
     }
     Button
     {
-        DoHotkey ( T O C H A N G E )
+        DoHotkey ( LCtrl RCtrl Lalt F5 )
         Label ("Inst. Heal Target")
         BackgroundColor (#00FF5D)
     }
     Button
     {
-        DoHotkey ( T O C H A N G E )
+        DoHotkey ( LCtrl RCtrl Lalt F8 )
         Label ("Inst. Heal Group")
         BackgroundColor (#00FF5D)
     }

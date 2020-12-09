@@ -4,6 +4,7 @@
 #Include tp/controller.txt
 #Include heal/controller.txt
 #Include dps/controller.txt
+#Include buff/controller.txt
 
 //------------------------------------
 // Mojo DAoC script
@@ -31,3 +32,328 @@ Hotkey ( V )
 {
     Key ( V )
 }
+
+
+//------------------------------------
+// Buttons Healers
+//------------------------------------
+
+Panel 
+{
+    Position ( 5 610 )
+    Alpha ( 65 )
+    QtyColumns ( 3 )
+    Label ("Healer")
+    FontWeight ( Regular )
+    ButtonSize ( 120 30)
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl Lalt F4 )
+        Label ("Small Heal Grp")
+        BackgroundColor (#B7FAAC)
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl Lalt F3 )
+        Label ("Big Heal Target")
+        BackgroundColor (#00FF5D)
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl Lalt F5 )
+        Label ("Inst. Heal Target")
+        BackgroundColor (#00FF5D)
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl Lalt F8 )
+        Label ("Inst. Heal Group")
+        BackgroundColor (#00FF5D)
+    }
+	Button
+    {
+        DoHotkey ( T O C H A N G E )
+        Label ("Healer Remove disease")
+        BackgroundColor (#00FF5D)
+    }
+	    Button
+    {
+        DoHotkey ( T O C H A N G E )
+        Label ("Shaman Remove disease")
+        BackgroundColor (#00FF5D)
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl Lalt F6 )
+        Label ("Healer1 Rez target")
+        BackgroundColor (#23FF00)
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl Lalt F7 )
+        Label ("Druid Rez target")
+        BackgroundColor (#23FF00)
+    }
+}
+
+//------------------------------------
+// Buttons Buffs
+//------------------------------------
+
+Panel
+{
+    Position ( 250 250 )
+    Alpha ( 65 )
+    QtyColumns ( 1 )
+    FontWeight ( Regular )
+    Label ("Buffs")
+    ButtonSize ( 100 30 )
+    // Assist active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl X )
+        Label ("Healer buffs")
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Y )
+        Label ("Healer regen mana") 
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F9 )
+        Label ("Healer AF buff") 
+    }
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl Z )
+        Label ("Healer Speed") 
+    }
+    // Unstick active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl W )
+        Label ("Shaman buffs") 
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt A )
+        Label ("Resists group") 
+    }
+}
+
+//------------------------------------
+// DPS melee group
+//------------------------------------
+
+Panel
+{
+    Position ( 5 350 )
+    Alpha ( 65 )
+    QtyRows(2)
+    FontWeight ( Regular )
+    Label ("DPS Control")
+    ButtonSize ( 140 30 )
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt G )
+        Label ("Assist DPS") 
+    }
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt F1 )
+        Label ("Celerity buff") 
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt B )
+        Label ("P|S Attack 1") 
+    }
+    // Assist active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt C )
+        Label ("P|S Attack 2")
+    }
+	    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt D )
+        Label ("P|F Attack 1")
+    }
+	    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt E )
+        Label ("P|F Attack 2")
+    }
+		    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt F )
+        Label ("F|S Attack")
+    }
+}
+
+Panel
+{
+    Position ( 5 150 )
+    Alpha ( 65 )
+    QtyRows(2)
+    FontWeight ( Regular )
+    Label ("Group Control")
+    ButtonSize ( 90 30 )
+    
+    // Stick active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F2 )
+        Label ("Stick") 
+    }
+
+    // Assist active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F1 )
+        Label ("Assist")
+    }
+
+    // Face assist active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F4 )
+        Label ("Face")
+    }
+
+    // Unstick active daoc window
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F3 )
+        Label ("Unstick") 
+    }
+}
+
+
+//------------------------------------
+// Buttons Group Commands
+//------------------------------------
+
+Panel
+{
+    Position ( 5 250 )
+    Alpha ( 65 )
+    QtyRows(2)
+    FontWeight ( Regular )
+    Label ("Group & BG Commands")
+    ButtonSize ( 110 30 )
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F5 )
+        Label ("Invite group")
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F6 )
+        Label ("Disband group")
+        BackgroundColor (#990000) 
+        TextColor (#ffffff)
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F7 )
+        Label ("BG create")
+    }
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl F8 )
+        Label ("BG leave")
+    }
+}
+
+//------------------------------------
+// Buttons TP
+//------------------------------------
+// Select NPC before
+
+Panel
+{
+    Position ( 3100 500 )
+    Alpha ( 65 )
+    QtyColumns(3)
+    Label ("TP to ..." )
+    ButtonSize ( 100 30)
+    // alb - castle sauvage
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl F9 )
+        Label ("Castle Sauvage")
+    }
+
+    // alb - snowdownia fortress
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl A )
+        Label ("Fortress")
+    }
+
+    // hib - druim ligen
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl B )
+        Label ("Druim Ligen")
+    }
+
+    // hib - druim cain
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl C )
+        Label ("Druim Cain")
+    }
+
+    // mid - svasud faste
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl D )
+        Label ("Svasud Faste")
+        }
+
+    // mid - vindsaul faste
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl E )
+        Label ("Vindsaul Faste")
+    }
+    // hib - tir na nog
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl F )
+        Label ("Tir na nog")
+    }
+    // alb camelot
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl H )
+        Label ("Camelot")
+    }
+    // mid - jordheim
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl G )
+        Label ("Jordheim")
+    }
+    //Choose
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl I )
+        Label ("Where ?")
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl J )
+        Label ("TP Bind")
+    }
+    Button
+    {
+        DoHotkey ( LCtrl RCtrl K )
+        Label ("Quit")
+    }
+}
+
+

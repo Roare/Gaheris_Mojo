@@ -4,6 +4,7 @@
 #Include tp/controller.txt
 #Include heal/controller.txt
 #Include dps/controller.txt
+#Include buff/controller.txt
 
 //------------------------------------
 // Mojo DAoC script

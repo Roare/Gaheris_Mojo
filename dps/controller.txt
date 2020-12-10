@@ -54,3 +54,13 @@ Hotkey ( LCtrl RCtrl Lalt G )
 		Slash ("/stick")
 	
 }
+
+// dps stick
+Hotkey ( LCtrl RCtrl Lalt D )
+{
+	Sendto (dps1 dps2 dps3)
+    Slash ("/target local_foreground")
+    wait (150)
+    Slash ("/stick") // Stick driver
+	
+}

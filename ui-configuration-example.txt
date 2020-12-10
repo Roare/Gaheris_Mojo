@@ -40,7 +40,7 @@ Hotkey ( V )
 
 Panel 
 {
-    Position ( 5 610 )
+    Position ( 5 450 )
     Alpha ( 65 )
     QtyColumns ( 3 )
     Label ("Healer")
@@ -102,7 +102,7 @@ Panel
 
 Panel
 {
-    Position ( 250 250 )
+    Position ( 250 120 )
     Alpha ( 65 )
     QtyColumns ( 1 )
     FontWeight ( Regular )
@@ -175,17 +175,7 @@ Panel
         DoHotkey ( LCtrl RCtrl Lalt C )
         Label ("P|S Attack 2")
     }
-	    Button
-    { 
-        DoHotkey ( LCtrl RCtrl Lalt D )
-        Label ("P|F Attack 1")
-    }
-	    Button
-    { 
-        DoHotkey ( LCtrl RCtrl Lalt E )
-        Label ("P|F Attack 2")
-    }
-		    Button
+	Button
     { 
         DoHotkey ( LCtrl RCtrl Lalt F )
         Label ("F|S Attack")

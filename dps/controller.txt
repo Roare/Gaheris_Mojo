@@ -25,41 +25,32 @@ Hotkey ( LCtrl RCtrl Lalt C )
 }
 
 
-// Parry otherwise front attack
-Hotkey ( LCtrl RCtrl Lalt D )
-{
-    sendto(dps1 dps2 dps3)
-	Key ( 1 ) // Select 2h
-	wait( 50 )
-	Key ( 5 ) // Style if Parry
-    Key ( 3 ) // Front of the target
-}
-
-// follow up Parry otherwise front attack
-Hotkey ( LCtrl RCtrl Lalt E )
-{
-    sendto(dps1 dps2 dps3)
-	Key ( 1 ) // Select 2h
-	wait( 50 )
-	Key ( 6 ) // Next style if parry success
-	Key ( 4 ) // Style after front of the target
-}
-
 // LW - Front target otherwise simple attack
 Hotkey ( LCtrl RCtrl Lalt F )
 {
     sendto(dps1 dps2 dps3)
 	Key ( 1 ) // Select 2h
 	wait( 50 )
-	Key ( 3 ) // Next style if parry success
-	Key ( 2 ) // Style after front of the target
+	Key ( 3 )
+	Key ( 4 ) 
+}
+
+// LW - Front target 2 otherwise simple attack
+Hotkey ( LCtrl RCtrl Lalt F )
+{
+    sendto(dps1 dps2 dps3)
+	Key ( 1 ) // Select 2h
+	wait( 50 )
+	Key ( 4 )
+	Key ( 2 )
 }
 
 // Assist active window and stick
 Hotkey ( LCtrl RCtrl Lalt G )
 {
-    Sendto (dps1 dps2 dps3)
-    Slash ("/assist local_foreground")
-	wait ( 50 )
-	Slash ("/stick")
+		Sendto (driver dps1 dps2 dps3)
+		Slash ("/assist local_foreground")
+		wait ( 50 )
+		Slash ("/stick")
+	
 }

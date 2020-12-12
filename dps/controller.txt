@@ -5,7 +5,8 @@
 // Unbuff wait = 5000
 
 // LW - Parry otherwise simple attack
-Hotkey ( LCtrl RCtrl Lalt B )
+// LCtrl RCtrl Lalt B
+Hotkey ( F1 )
 {
     sendto(dps1 dps2 dps3)
 	Key ( 1 ) // Select 2h
@@ -26,7 +27,8 @@ Hotkey ( LCtrl RCtrl Lalt C )
 
 
 // LW - Front target otherwise simple attack
-Hotkey ( LCtrl RCtrl Lalt F )
+// LCtrl RCtrl Lalt F
+Hotkey ( F2 )
 {
     sendto(dps1 dps2 dps3)
 	Key ( 1 ) // Select 2h
@@ -45,8 +47,9 @@ Hotkey ( LCtrl RCtrl Lalt F )
 	Key ( 2 )
 }
 
-// Assist active window and stick
-Hotkey ( LCtrl RCtrl Lalt G )
+// Assist dps active window and stick
+// LCtrl RCtrl Lalt G
+Hotkey ( R )
 {
 		Sendto (driver dps1 dps2 dps3)
 		Slash ("/assist local_foreground")
@@ -56,7 +59,8 @@ Hotkey ( LCtrl RCtrl Lalt G )
 }
 
 // dps stick
-Hotkey ( LCtrl RCtrl Lalt D )
+// LCtrl RCtrl Lalt D
+Hotkey ( T )
 {
 	Sendto (dps1 dps2 dps3)
     Slash ("/target local_foreground")

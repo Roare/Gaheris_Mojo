@@ -17,6 +17,11 @@ Panel
     }
 	Button
     { 
+        DoHotkey ( LCtrl RCtrl Lalt D )
+        Label ("DPS Stick") 
+    }
+	Button
+    { 
         DoHotkey ( LCtrl RCtrl Lalt F1 )
         Label ("Celerity buff") 
     }
@@ -31,17 +36,7 @@ Panel
         DoHotkey ( LCtrl RCtrl Lalt C )
         Label ("P|S Attack 2")
     }
-	    Button
-    { 
-        DoHotkey ( LCtrl RCtrl Lalt D )
-        Label ("P|F Attack 1")
-    }
-	    Button
-    { 
-        DoHotkey ( LCtrl RCtrl Lalt E )
-        Label ("P|F Attack 2")
-    }
-		    Button
+    Button
     { 
         DoHotkey ( LCtrl RCtrl Lalt F )
         Label ("F|S Attack")

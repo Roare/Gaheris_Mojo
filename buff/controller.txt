@@ -62,6 +62,14 @@ Hotkey ( LCtrl RCtrl Lalt A )
 	
 }
 
+Hotkey ( LCtrl RCtrl Lalt E )
+{
+  sendto(healer1)
+  Slash ("/qbar 2 1") // Select buff bar
+  Key ( 0 )
+  Slash ("/qbar 1 1") // Default bar
+}
+
 // Regen mana
 Hotkey ( LCtrl RCtrl Y )
 {
@@ -100,7 +108,8 @@ Hotkey ( LCtrl RCtrl Z )
 
 
 // Celerity buff
-Hotkey ( LCtrl RCtrl Lalt F1 )
+// LCtrl RCtrl Lalt F1
+Hotkey ( F3 )
 {
   sendto(healer2)
   Key ( 4 ) // Celerity

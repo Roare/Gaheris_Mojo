@@ -23,7 +23,7 @@ Defaults
 // Stop combat
 Hotkey ( X )
 {
-    sendto ( dps1 dps2 dps3 )
+    sendto ( dps1 dps2 dps3 driver )
     Key ( X )
 }
 
@@ -135,6 +135,11 @@ Panel
         DoHotkey ( LCtrl RCtrl W )
         Label ("Shaman buffs") 
     }
+	    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt E )
+        Label ("Shaman Endu") 
+    }
     Button
     { 
         DoHotkey ( LCtrl RCtrl Lalt A )
@@ -161,6 +166,11 @@ Panel
     }
 	Button
     { 
+        DoHotkey ( LCtrl RCtrl Lalt D )
+        Label ("DPS Stick") 
+    }
+	Button
+    { 
         DoHotkey ( LCtrl RCtrl Lalt F1 )
         Label ("Celerity buff") 
     }
@@ -175,7 +185,7 @@ Panel
         DoHotkey ( LCtrl RCtrl Lalt C )
         Label ("P|S Attack 2")
     }
-	Button
+    Button
     { 
         DoHotkey ( LCtrl RCtrl Lalt F )
         Label ("F|S Attack")

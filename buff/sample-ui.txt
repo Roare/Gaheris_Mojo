@@ -39,6 +39,11 @@ Panel
     }
     Button
     { 
+        DoHotkey ( LCtrl RCtrl Lalt E )
+        Label ("Shaman Endu") 
+    }
+    Button
+    { 
         DoHotkey ( LCtrl RCtrl Lalt A )
         Label ("Resists group") 
     }

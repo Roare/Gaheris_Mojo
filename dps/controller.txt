@@ -38,7 +38,8 @@ Hotkey ( F2 )
 }
 
 // LW - Front target 2 otherwise simple attack
-Hotkey ( LCtrl RCtrl Lalt F )
+// LCtrl RCtrl Lalt H
+Hotkey ( LCtrl RCtrl Lalt H )
 {
     sendto(dps1 dps2 dps3)
 	Key ( 1 ) // Select 2h

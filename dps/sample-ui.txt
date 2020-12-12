@@ -10,14 +10,15 @@ Panel
     FontWeight ( Regular )
     Label ("DPS Control")
     ButtonSize ( 140 30 )
+	//LCtrl RCtrl Lalt G
 	Button
     { 
-        DoHotkey ( LCtrl RCtrl Lalt G )
+        DoHotkey ( R )
         Label ("Assist DPS") 
     }
 	Button
     { 
-        DoHotkey ( LCtrl RCtrl Lalt D )
+        DoHotkey ( T )
         Label ("DPS Stick") 
     }
 	Button
@@ -27,7 +28,7 @@ Panel
     }
     Button
     { 
-        DoHotkey ( LCtrl RCtrl Lalt B )
+        DoHotkey ( F1 )
         Label ("P|S Attack 1") 
     }
     // Assist active daoc window
@@ -38,7 +39,7 @@ Panel
     }
     Button
     { 
-        DoHotkey ( LCtrl RCtrl Lalt F )
+        DoHotkey ( F2 )
         Label ("F|S Attack")
     }
 }

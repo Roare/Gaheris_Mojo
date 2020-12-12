@@ -109,7 +109,7 @@ Hotkey ( LCtrl RCtrl Z )
 
 // Celerity buff
 // LCtrl RCtrl Lalt F1
-Hotkey ( F3 )
+Hotkey ( LCtrl RCtrl Lalt F1 )
 {
   sendto(healer2)
   Key ( 4 ) // Celerity

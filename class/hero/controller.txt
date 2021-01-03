@@ -1,0 +1,61 @@
+//------------------------------------
+// Hotkeys DPS
+//------------------------------------
+
+// Unbuff wait = 5000
+
+// LW - simple attack
+// LCtrl RCtrl Lalt B
+Hotkey ( F1 )
+{
+    sendto(dps1 dps2 dps3)
+	Key ( 1 ) // Select 2h
+	wait( 100 ) // to make sure 2h is selected
+	Key ( 3 ) // front style
+    Key ( 2 ) //  simple style
+}
+
+// LW - Front target 2 otherwise simple attack
+// LCtrl RCtrl Lalt F
+Hotkey ( T )
+{
+    sendto(dps1 dps2 dps3)
+	Key ( 1 ) // Select 2h
+	wait( 50 )
+	Key ( 4 ) 
+	Key ( 2 ) 
+}
+
+// 1h - Parry or attack
+// LCtrl RCtrl Lalt C
+Hotkey ( F3 )
+{
+    sendto(dps1 dps2 dps3)
+	Key ( Lalt 1 ) // make sure 2h is selected
+	wait( 50) // Wait execution first attack.
+	Key ( Lalt 3 ) // Simple style
+}
+
+
+
+// 1h - 1 Stun shield
+// LCtrl RCtrl Lalt H
+Hotkey ( F4 )
+{
+    sendto(dps1 dps2 dps3)
+	Key ( Lalt 1 ) // Select 2h
+	wait( 50 )
+	Key ( Lalt 4 )
+	Key ( Lalt 2 )
+}
+
+// Assist dps active window and stick
+// LCtrl RCtrl Lalt G
+Hotkey ( R )
+{
+		Sendto (driver dps1 dps2 dps3)
+		Slash ("/assist local_foreground")
+		wait ( 50 )
+		Slash ("/stick")
+	
+}

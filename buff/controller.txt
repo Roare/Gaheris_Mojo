@@ -13,7 +13,7 @@ Hotkey ( LCtrl RCtrl W )
   wait(2000)
 
   Slash ("/assist local_foreground")
-  wait(1000)
+  wait(200)
   Key ( 5 ) // Buff str-con    
   wait(4000)
   Key ( 6 ) // Buff dex-qui        
@@ -24,9 +24,9 @@ Hotkey ( LCtrl RCtrl W )
 Hotkey ( LCtrl RCtrl X )
 {
   sendto(healer2)
-  Slash ("/qbar 2 1") // Select buff bar
   Slash ("/assist local_foreground")
-  wait(700)
+  Slash ("/qbar 2 1") // Select buff bar
+  wait(450)
   Key ( 1 ) // Buff AF
   wait(4000)
   Key ( 2 ) // Buff STR
@@ -45,17 +45,15 @@ Hotkey ( LCtrl RCtrl Lalt A )
     {
 	  sendto(healer2)
 	  Slash ("/qbar 3 1") // Select buff bar
-	  wait(700)
+	  wait(200)
 	  Key ( 1 ) // Resist magic buff
-	  wait(3500)
-	  Key ( 2 ) // heal buff
 	  Slash ("/qbar 1 1") // Default bar
 	}
 	package
     {
 	  sendto(healer1)
 	  Slash ("/qbar 3 1") // Select buff bar
-	  wait(700)
+	  wait(200)
 	  Key ( 1 ) // Resist magic buff
 	  Slash ("/qbar 1 1") // Default bar
 	}
@@ -90,7 +88,7 @@ Hotkey ( LCtrl RCtrl F9 )
   Slash ("/assist local_foreground")
   wait(700)
   Key ( 5 ) // buff af
-  wait(4000)
+  wait(3500)
   Slash ("/qbar 1 1") // Default bar
 }
 
@@ -109,7 +107,7 @@ Hotkey ( LCtrl RCtrl Z )
 
 // Celerity buff
 // LCtrl RCtrl Lalt F1
-Hotkey ( LCtrl RCtrl Lalt F1 )
+Hotkey ( F5 )
 {
   sendto(healer2)
   Key ( 4 ) // Celerity

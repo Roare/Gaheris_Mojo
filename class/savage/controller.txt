@@ -1,0 +1,77 @@
+//------------------------------------
+// Hotkeys DPS
+//------------------------------------
+
+// Unbuff wait = 5000
+
+// LW - Front target 2 otherwise simple attack
+// LCtrl RCtrl Lalt F
+Hotkey ( T )
+{
+    sendto(dps1 dps2 dps3)
+	Key ( 1 )
+}
+
+// Assist dps active window and stick
+// LCtrl RCtrl Lalt G
+Hotkey ( R )
+{
+	Sendto (driver dps1 dps2 dps3)
+	Slash ("/assist local_foreground")
+	wait ( 50 )
+	Slash ("/stick")
+	
+}
+
+// Savage buffs
+// Haste buff
+Hotkey ( LCtrl RCtrl Lalt I )
+{
+	sendto(dps1 dps2 dps3)
+	Key ( 2 )
+	
+}
+
+// dmg buff
+Hotkey ( LCtrl RCtrl Lalt J )
+{
+	sendto(dps1 dps2 dps3)
+	Key ( 3 )
+}
+
+// evade buff
+Hotkey ( LCtrl RCtrl Lalt K )
+{
+	sendto(dps1 dps2 dps3)
+	Key ( 4 )
+}
+
+// parry buff
+Hotkey ( LCtrl RCtrl Lalt L )
+{
+	sendto(dps1 dps2 dps3)
+	Key ( 5 )
+}
+
+// resist buff
+Hotkey ( LCtrl RCtrl Lalt M )
+{
+	sendto(dps1 dps2 dps3)
+	Key ( 6 )
+}
+
+// all buff
+Hotkey ( LCtrl RCtrl Lalt N )
+{
+	sendto(dps1 dps2 dps3)
+	Key ( 8 )
+}
+
+// Charge
+Hotkey ( LCtrl RCtrl Lalt O )
+{
+	sendto(dps1 dps2 dps3)
+	Key ( 9 )
+}
+
+

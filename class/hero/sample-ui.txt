@@ -1,0 +1,40 @@
+//------------------------------------
+// DPS melee group
+//------------------------------------
+
+Panel
+{
+    Position ( 5 350 )
+    Alpha ( 65 )
+    QtyRows(2)
+    FontWeight ( Regular )
+    Label ("DPS Control")
+    ButtonSize ( 140 30 )
+	//LCtrl RCtrl Lalt G
+	Button
+    { 
+        DoHotkey ( F5 )
+        Label ("Celerity buff") 
+    }
+    Button
+    { 
+        DoHotkey ( F1 )
+        Label ("2h Front") 
+    }
+    // Assist active daoc window
+    Button
+    { 
+        DoHotkey ( F2 )
+        Label ("2h Front 2")
+    }
+    Button
+    { 
+        DoHotkey ( F3 )
+        Label ("1h Block")
+    }
+	    Button
+    { 
+        DoHotkey ( F4 )
+        Label ("1h Stun")
+    }
+}

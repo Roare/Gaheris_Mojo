@@ -1,0 +1,55 @@
+//------------------------------------
+// Savage group
+//------------------------------------
+
+Panel
+{
+    Position ( 5 350 )
+    Alpha ( 65 )
+    QtyRows(2)
+    FontWeight ( Regular )
+    Label ("Savage")
+    ButtonSize ( 60 30 )
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt I )
+        Label ("Haste") 
+    }
+	
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt J )
+        Label ("Damage") 
+    }
+	
+
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt K )
+        Label ("Evade")
+    }
+	
+    Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt L )
+        Label ("Parry")
+    }
+	
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt M )
+        Label ("Resists")
+    }
+	
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt N )
+        Label ("All buff")
+    }
+	
+	Button
+    { 
+        DoHotkey ( LCtrl RCtrl Lalt O )
+        Label ("Charge")
+    }
+}
